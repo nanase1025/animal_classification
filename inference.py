@@ -46,7 +46,7 @@ class CustomDataset(Dataset):
         return image
 
 
-test_data_path = "/root/code/homework1/Animals Dataset/test"
+test_data_path = "your_test_data_path" # you should modify this path
 output_file = "output.json"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
