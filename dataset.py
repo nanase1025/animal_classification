@@ -39,7 +39,7 @@ transform_val = transforms.Compose([
 ])
 
 # Define data paths and parameters
-data_path = '/root/code/homework1/Animals Dataset'
+data_path = '/root/code/homework1/Animals Dataset' # you should modify this path
 train_and_val_path = os.path.join(data_path, 'train')
 batch_size = 32
 num_workers = 0
