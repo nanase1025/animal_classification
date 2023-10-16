@@ -52,7 +52,7 @@ output_file = "output.json"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # load model parameters
-model_path = "/root/code/homework1/best_model_weights.pth"
+model_path = "/root/code/homework1/best_model_weights.pth" # you should put your best model weight path to there
 my_model = MyResNet18().to(device)  
 my_model.load_state_dict(torch.load(model_path))
 my_model.eval()
