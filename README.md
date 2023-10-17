@@ -1,7 +1,7 @@
 # animal_classification
 ❗️❗️❗️ English | [中文文档](https://github.com/nanase1025/animal_classification/blob/main/README_zh.md)
 
-This is a baseline of the animal classification.
+This is a baseline of the animal classification.🐱🐶
 This project is mainly about classifying animal pictures. The file is divided into training set and test set. The image labels of the training set come from the folder name to which they belong. For example, the labels of all images in the ape folder are ape, and the test set is strictly prohibited from participating in training.
 
 ## main processes
